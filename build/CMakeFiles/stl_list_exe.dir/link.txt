@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -o2 -Wall   CMakeFiles/stl_list_exe.dir/main.cpp.o CMakeFiles/stl_list_exe.dir/src/stl_iterator.cpp.o CMakeFiles/stl_list_exe.dir/src/stl_array.cpp.o CMakeFiles/stl_list_exe.dir/src/stl_vector.cpp.o CMakeFiles/stl_list_exe.dir/src/stl_deque.cpp.o CMakeFiles/stl_list_exe.dir/src/stl_list.cpp.o  -o stl_list_exe 

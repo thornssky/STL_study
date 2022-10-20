@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/stl_iterator_extend.h
+iterator
+-
+iostream
+-
+vector
+-
+deque
+-
+list
+-
+forward_list
+-
+
+/home/thorns/STL_study/src/stl_iterator_extend.cpp
+stl_iterator_extend.h
+/home/thorns/STL_study/src/stl_iterator_extend.h
+

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/stl_list.h
+list
+-
+forward_list
+-
+
+/home/thorns/STL_study/src/stl_list.cpp
+stl_list.h
+/home/thorns/STL_study/src/stl_list.h
+array
+-
+iostream
+-
+

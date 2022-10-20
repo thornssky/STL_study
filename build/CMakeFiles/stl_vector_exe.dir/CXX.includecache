@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/stl_array.h
+array
+-
+iostream
+-
+
+../include/stl_iterator.h
+vector
+-
+iostream
+-
+
+../include/stl_vector.h
+vector
+-
+array
+-
+
+/home/thorns/STL_study/main.cpp
+stl_iterator.h
+/home/thorns/STL_study/stl_iterator.h
+stl_array.h
+/home/thorns/STL_study/stl_array.h
+stl_vector.h
+/home/thorns/STL_study/stl_vector.h
+
